@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Layout Tabel</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+  .luar {
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    background-color: rgb(224, 224, 224);
+    margin: 10px auto;
+  }    
+  
+  .kolom1 {
+    position: relative;
+    background-color: rgb(255, 119, 119);
+    width: 50%;
+    height: 35%;
+  }
+
+  .kolom2 {
+    position: relative;
+    background-color: rgb(255, 162, 109);
+    width: 50%;
+    height: 65%;
+  }
+
+  .kolom3 {
+    position: relative;
+    background-color: rgb(255, 217, 112);
+    width: 50%;
+    height: 25%;
+    float: right;
+    margin-top: -50%;
+  }
+
+  .kolom4 {
+    position: relative;
+    background-color: rgb(229, 255, 112);
+    width: 50%;
+    height: 15%;
+    float: right;
+    margin-top: -38%;
+  }
+
+  .kolom5 {
+    position: relative;
+    background-color: rgb(169, 255, 112);
+    width: 50%;
+    height: 62%;
+    float: right;
+    margin-top: -31%;
+  }
+
+  .kotak1 {
+    position: relative;
+    background-color: darkgray;
+    width: 70%;
+    height: 30%;
+    margin-left: 20%;
+  }
+
+  .kotak2 {
+    position: relative;
+    background-color: darkgray;
+    width: 60%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+
+  .kotak3 {
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    width: 60%;
+    height: 35%;
+    margin-left: 30%;
+  }
+
+  .judul {
+    position: relative;
+    background-color: rgb(101, 252, 71);
+    width: 35%;
+    height: 10%;
+    top: 5%;
+    margin-left: 27%;
+    
+  }
+
+  .hijau {
+    position: relative;
+    background-color: rgb(114, 240, 64);
+    width: 30%;
+    height: 2%;
+    margin-left: 27%;
+    margin-top: 5%;
+  }
+
+  .hitam {
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    width: 40%;
+    height: 2%;
+    margin-left: 27%;
+    margin-top: 1%;
+  }
+
+  .judul2 {
+    position: relative;
+    background-color: rgb(27, 27, 27);
+    width: 35%;
+    height: 20%;
+    margin-left: 35%;
+    margin-top: 2%;
+  }
+
+  .kotak5 {
+    position: relative;
+    background-color: rgb(24, 24, 24);
+    width: 35%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 1%;
+  }
+
+  .kotak6 {
+    position: relative;
+    background-color: rgb(201, 143, 255);
+    width: 40%;
+    height: 80%;
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+
+  .judul3 {
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    width: 20%;
+    height: 9%;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  .kotak7 {
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    width: 8%;
+    height: 10%;
+    margin-left: 1%;
+    margin-top: 4%;
+  }
+
+  .kotak8 {
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    width: 30%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: -47%;
+  }
+
+  .kotak9 {
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    width: 30%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+
+  .kotak10 {
+    position: relative;
+    background-color: rgb(31, 76, 197);
+    width: 6%;
+    height: 9%;
+    margin-left: 70%;
+    margin-top: -46.5%;
+  }
+
+  .kotak11 {
+    position: relative;
+    background-color: rgb(31, 76, 197);
+    width: 6%;
+    height: 9%;
+    margin-left: 70%;
+    margin-top: 4.5%;
+  }
+
+</style>
+  </head>
+  <body>
+
+    <div class="luar">
+       <div class="kolom1">
+        <div class="kotak1"></div>   
+        <div class="kotak2"></div>   
+        <div class="kotak3"></div>
+    </div>
+
+    <div class="kolom2">
+      <div class="judul"></div>  
+      <div class="hijau"></div>   
+      <div class="hitam"></div>
+      <div class="hitam"></div>
+      <div class="hijau"></div> 
+      <div class="hitam"></div>
+      <div class="hijau"></div> 
+      <div class="hitam"></div>
+      <div class="hitam"></div>
+      <div class="hitam"></div>
+      <div class="hitam"></div>
+      <div class="hijau"></div> 
+      <div class="hitam"></div>
+      <div class="hijau"></div> 
+      <div class="hitam"></div>
+  </div>
+ 
+    <div class="kolom3">  
+      <div class="judul2"></div>
+      <div class="kotak5"></div>   
+  </div>
+
+    <div class="kolom4">  
+      <div class="kotak6"></div>
+    </div> 
+
+    <div class="kolom5">
+      <div class="judul3"></div>   
+      <div class="kotak7"></div>   
+      <div class="kotak7"></div> 
+      <div class="kotak7"></div> 
+      <div class="kotak7"></div> 
+      <div class="kotak7"></div> 
+      <div class="kotak8"></div>
+      <div class="kotak9"></div>
+      <div class="kotak9"></div>
+      <div class="kotak9"></div>
+      <div class="kotak9"></div>
+      <div class="kotak10"></div>
+      <div class="kotak11"></div>
+      <div class="kotak11"></div>
+      <div class="kotak11"></div>
+      <div class="kotak11"></div>      
+  </div>
+</div>  
+
+  </body>
+</html>
