@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 0px auto;
+}
+
+.kiri, .kanan {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.kiri .atas {
+  position: relative;
+  width: 100%;
+  height: 35%;
+}
+
+.kiri .bawah {
+  position: relative;
+  width: 100%;
+  height: 65%;
+}
+
+.kanan .atas {
+  position: relative;
+  width: 100%;
+  height: 40%;
+}
+
+.kanan .bawah {
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+
+.isi {
+  width: 95%;
+  padding-left:5%;
+}
+
+table.route_table {
+  border: 1px solid #555;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.route_table th {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+  background-color: #555;
+  color: white;
+  vertical-align: top;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+table.route_table td {
+  border: 1px solid #555;
+  padding: 10px;
+  vertical-align: top;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.kiri .atas h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  padding: 15px;
+  background-color: #555;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.kiri .bawah h3 {
+  font-family: 'Montserrat-Thin';
+  font-style: normal;
+  font-weight:bold;
+  font-size: 30px;
+  color: rgb(110, 219, 0) ;
+  margin-top: 20px;
+}
+
+hr.green {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(110, 219, 0);
+}
+
+.text1 {
+  position: relative;
+}
+
+.textgreen {
+  font-family: 'arial';
+  font-style: normal;
+  font-size: 17px;
+  color: rgb(110, 219, 0);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.textgreen1 {
+  font-family: 'arial';
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(110, 219, 0);
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.textblack {
+  font-family: 'arial';
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 30px;
+}
+
+.textblack1 {
+  font-family: 'arial';
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 20px;
+}
+
+.kananatas {
+  float: right;
+  margin-top: 15px;
+}
+
+.title1 {
+  font-family: 'times new roman';
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  float: right;
+}
+
+.number {
+  font-size: 170px;
+  font-weight: bolder;
+  margin-left: 200px;
+}
+
+.box {
+  width: 220px;
+  height: 80px;
+  background-color: rgb(190, 131, 245);
+  float: right;
+}
+
+.insidebox {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.textblack2 {
+  font-family: 'times new roman';
+  font-style: normal;
+  font-size: 25px;
+}
+
+
+.title2 {
+  font-family: 'times new roman';
+  font-style: normal;
+  font-size: 25px;
+  margin-top: 110px;
+  font-weight: bold;
+}
+
+hr .black {
+  width: 200px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+}
+
+.kotak {
+  position: relative;
+  width: 400px;
+  height: 33px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.kotak2 {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "arial";
+  width: 60px;
+  height: 33px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.kotak3 {
+  position: relative;
+  width: 150px;
+  height: 33px;
+  margin-left: 120px;
+  background-color: rgb(255, 255, 255);
+  margin-top: -35px;
+}
+.kotak4 {
+  position: relative;
+  width: 50px;
+  height: 33px;
+  margin-left: 232px;
+  margin-top: -30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.no {
+  font-family: 'arial';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+}
